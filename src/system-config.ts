@@ -29,6 +29,12 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/game-panel/game-panel',
+  'app/configurator/hero-configurator',
+  'app/configurator/spell-configurator',
+  'app/game-panel/game-hero-panel',
+  'app/game-panel/game-spell-panel',
+  'app/game-panel/boss-panel',
   /** @cli-barrel */
 ];
 
