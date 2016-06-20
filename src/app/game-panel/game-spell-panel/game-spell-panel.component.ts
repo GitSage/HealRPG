@@ -4,7 +4,8 @@ import { Component, OnInit } from '@angular/core';
   moduleId: module.id,
   selector: 'app-game-spell-panel',
   templateUrl: 'game-spell-panel.component.html',
-  styleUrls: ['game-spell-panel.component.css']
+  styleUrls: ['game-spell-panel.component.css'],
+  directives: []
 })
 export class GameSpellPanelComponent implements OnInit {
 

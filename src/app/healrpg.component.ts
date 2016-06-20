@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { GamePanelComponent } from './game-panel/game-panel';
+import { GamePanelComponent } from './game-panel';
 
 @Component({
   moduleId: module.id,

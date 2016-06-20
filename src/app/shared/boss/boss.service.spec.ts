@@ -5,7 +5,7 @@ import {
   expect,
   inject
 } from '@angular/core/testing';
-import { BossServiceService } from './boss-service.service';
+import { BossServiceService } from './boss.service';
 
 describe('BossService Service', () => {
   beforeEachProviders(() => [BossServiceService]);
