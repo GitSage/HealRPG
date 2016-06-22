@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, HostBinding } from '@angular/core';
 
 @Component({
   moduleId: module.id,
@@ -8,12 +8,19 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HealthBarComponent implements OnInit {
 
-  @Input() maxHp:Number;
-  @Input() currHp:Number;
+  @Input() name:string;
+  @Input() maxHp:number;
+  @Input() currHp:number;
 
   constructor() {}
 
   ngOnInit() {
+  }
+
+  getWidth(){
+    var widthStyle = this.currHp / this.maxHp * 100 + "%";
+    console.log("Width of " + name + ": " + widthStyle);
+    return widthStyle;
   }
 
 }

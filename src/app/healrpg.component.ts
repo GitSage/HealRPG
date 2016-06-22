@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { GamePanelComponent } from './game-panel';
 
 @Component({
@@ -9,5 +9,7 @@ import { GamePanelComponent } from './game-panel';
   directives: [GamePanelComponent],
 })
 export class HealrpgAppComponent {
-  title = 'healrpg works!';
+  title = 'HealRPG';
 }
+
+
