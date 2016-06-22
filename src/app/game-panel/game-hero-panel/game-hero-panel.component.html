@@ -1,3 +1,1 @@
-<div *ngFor="let hero of heroes">
-  <health-bar [name]='hero.name' [currHp]='hero.currHp' [maxHp]='hero.maxHp'></health-bar>
-</div>
+<health-bar class="hero-health-bar" *ngFor="let hero of heroes" [name]='hero.name' [currHp]='hero.currHp' [maxHp]='hero.maxHp'></health-bar>
