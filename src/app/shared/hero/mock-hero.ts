@@ -1,8 +1,13 @@
 import { Hero } from './hero';
 export var HEROES: Hero[] = [
-    {id: 1, name: "Tank", currHp: 250, maxHp: 250, damage: 20},
-    {id: 2, name: "Healer", currHp: 125, maxHp: 125, damage: 5},
-    {id: 3, name: "Dps", currHp: 175, maxHp: 175, damage: 40},
-    {id: 4, name: "Dps", currHp: 150, maxHp: 150, damage: 50},
-    {id: 5, name: "Dps", currHp: 100, maxHp: 100, damage: 75}
+    new Hero(1, "Tank1", 200, 250, 20),
+    new Hero(2, "Tank2", 150, 300, 15),
+    new Hero(3, "Tank3", 350, 400, 20),
+    new Hero(4, "DPS1", 100, 100, 20),
+    new Hero(5, "DPS2", 100, 125, 20),
+    new Hero(6, "DPS3", 25, 150, 20),
+    new Hero(7, "DPS4", 160, 175, 20),
+    new Hero(8, "DPS5", 200, 200, 20),
+    new Hero(9, "DPS6", 150, 150, 20),
+    new Hero(10, "DPS7", 0, 150, 20)
 ];
