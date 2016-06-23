@@ -1,3 +1,3 @@
-// export * from './boss';
-// export * from './hero/hero';
-// export * from './spell';
+export * from './boss/boss';
+export * from './hero/hero';
+export * from './spell/spell';
