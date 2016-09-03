@@ -1,5 +1,5 @@
 import { Hero } from './hero';
-export var HEROES: Hero[] = [
+export var MOCK_HEROES: Hero[] = [
     new Hero(1, "Tank1", 200, 250, 20),
     new Hero(2, "Tank2", 150, 300, 15),
     new Hero(3, "Tank3", 350, 400, 20),

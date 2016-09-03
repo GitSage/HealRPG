@@ -1,17 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Hero } from './hero'
-import { HEROES } from './mock-hero'
+import { MOCK_HEROES } from './mock-hero'
 
 @Injectable()
 export class HeroService {
 
-  heroes:Hero[];
-
   constructor() {
-    this.heroes = HEROES;
   }
 
   public getHeroes(): Promise<Hero[]>{
-    return Promise.resolve(this.heroes);
+    return Promise.resolve(MOCK_HEROES);
   }
 }
