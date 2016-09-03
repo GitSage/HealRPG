@@ -5,7 +5,7 @@ import { GameSpellPanelComponent } from './game-spell-panel'
 
 @Component({
   moduleId: module.id,
-  selector: 'app-game-panel',
+  selector: 'game-panel',
   templateUrl: 'game-panel.component.html',
   styleUrls: ['game-panel.component.css'],
   directives: [GameHeroPanelComponent, GameSpellPanelComponent]
