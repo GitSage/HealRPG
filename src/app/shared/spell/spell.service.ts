@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Spell } from './spell';
-import { SPELLS } from './mock-spell';
+import { MOCK_SPELLS } from './mock-spell';
 
 @Injectable()
 export class SpellService {
 
-  constructor() {;
+  constructor() {
   }
 
   public getSpells() : Promise<Spell[]>{
-    return Promise.resolve(SPELLS);
+    return Promise.resolve(MOCK_SPELLS);
   }
 }
