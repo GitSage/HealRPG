@@ -11,7 +11,7 @@ export class HeroService {
     this.heroes = HEROES;
   }
 
-  public getHeroes(){
-    return this.heroes;
+  public getHeroes(): Promise<Hero[]>{
+    return Promise.resolve(this.heroes);
   }
 }

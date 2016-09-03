@@ -13,12 +13,12 @@ import { HealthBarComponent } from '../shared/health-bar/health-bar.component';
 })
 export class GameHeroPanelComponent implements OnInit {
 
-  heroes:Hero[]
+  private heroes:Hero[];
 
   constructor(private heroService:HeroService) {}
 
   ngOnInit() {
-    this.heroes = this.heroService.getHeroes();
+    this.heroService.getHeroes().then(heroes => this.heroes = heroes);
   }
 
 }
