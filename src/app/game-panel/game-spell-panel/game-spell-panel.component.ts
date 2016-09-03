@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   moduleId: module.id,
-  selector: 'app-game-spell-panel',
+  selector: 'game-spell-panel',
   templateUrl: 'game-spell-panel.component.html',
   styleUrls: ['game-spell-panel.component.css'],
   directives: []

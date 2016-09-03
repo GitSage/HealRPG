@@ -5,7 +5,7 @@ import { HealthBarComponent } from '../shared/health-bar/health-bar.component';
 
 @Component({
   moduleId: module.id,
-  selector: 'app-game-hero-panel',
+  selector: 'game-hero-panel',
   templateUrl: 'game-hero-panel.component.html',
   styleUrls: ['game-hero-panel.component.css'],
   providers: [ HeroService, HealthBarComponent ],
