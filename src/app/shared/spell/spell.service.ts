@@ -5,16 +5,10 @@ import { SPELLS } from './mock-spell';
 @Injectable()
 export class SpellService {
 
-  private spells:Spell[];
-
-  constructor() {
-    this.spells = this.getSpells();
+  constructor() {;
   }
 
-  public getSpells(){
-    return this.spells;
+  public getSpells() : Promise<Spell[]>{
+    return Promise.resolve(SPELLS);
   }
-
-
-
 }

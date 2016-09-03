@@ -16,6 +16,7 @@ export class GameSpellPanelComponent implements OnInit {
   constructor(private spellService : SpellService) {}
 
   ngOnInit(){
+    this.spellService.getSpells().then(spells => this.spells = spells);
   }
 
 }
