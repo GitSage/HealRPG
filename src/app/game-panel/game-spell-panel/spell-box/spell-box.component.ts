@@ -10,6 +10,6 @@ import { Spell } from '../../../shared/spell/spell';
 export class SpellBoxComponent implements OnInit {
 
   ngOnInit(){
-    
+
   }
 }
