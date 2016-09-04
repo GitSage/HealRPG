@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { SpellService } from '../../shared/spell/spell.service';
 import { Spell } from '../../shared/spell/spell';
+import { SpellBoxComponent } from './spell-box/spell-box.component';
 
 @Component({
   moduleId: module.id,
@@ -8,7 +9,7 @@ import { Spell } from '../../shared/spell/spell';
   templateUrl: 'game-spell-panel.component.html',
   styleUrls: ['game-spell-panel.component.css'],
   providers: [ SpellService ],
-  directives: []
+  directives: [ SpellBoxComponent ]
 })
 export class GameSpellPanelComponent implements OnInit {
 
