@@ -14,6 +14,7 @@ import { SpellBoxComponent } from './spell-box/spell-box.component';
 export class GameSpellPanelComponent implements OnInit {
 
   private spells : Spell[];
+  
   constructor(private spellService : SpellService) {}
 
   ngOnInit(){
