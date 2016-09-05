@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 import { Spell } from '../../../shared/spell/spell';
 
 @Component({
@@ -9,7 +9,9 @@ import { Spell } from '../../../shared/spell/spell';
 })
 export class SpellBoxComponent implements OnInit {
 
-  ngOnInit(){
+  @Input() private spell:Spell;
+
+  ngOnInit() {
 
   }
 }
