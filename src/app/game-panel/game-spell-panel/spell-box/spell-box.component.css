@@ -1,1 +1,12 @@
-
+:host{
+  border: 1px black solid;
+  padding: 5px;
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+:host:hover{
+  background-color: beige;
+}
+#name, #power, #cost{
+  margin: 0 auto;
+}
