@@ -1,1 +1,5 @@
-<spell-box *ngFor="let spell of spells" [spell]="spell"></spell-box>
+<spell-box
+  *ngFor="let spell of spells"
+  [spell]="spell"
+  (spellClicked)="spellClicked($event)">
+</spell-box>

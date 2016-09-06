@@ -4,4 +4,5 @@ export class Spell {
     targetTypes: string[];
     power: number;
     cost: number;
+    active: boolean;
 }

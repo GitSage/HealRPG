@@ -7,6 +7,9 @@
 :host:hover{
   background-color: beige;
 }
+:host(.active){
+  background-color: aquamarine;
+}
 #name, #power, #cost{
   margin: 0 auto;
 }

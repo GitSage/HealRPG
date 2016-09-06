@@ -14,11 +14,16 @@ import { SpellBoxComponent } from './spell-box/spell-box.component';
 export class GameSpellPanelComponent implements OnInit {
 
   private spells : Spell[];
-  
+
   constructor(private spellService : SpellService) {}
 
   ngOnInit(){
     this.spellService.getSpells().then(spells => this.spells = spells);
+  }
+
+  private spellClicked(clickedSpell) : void{
+    console.info("game-spell-panel received spellClicked event" );
+    this.spellService.processSpellClicked(clickedSpell);
   }
 
 }
