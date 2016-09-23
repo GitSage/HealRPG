@@ -3,6 +3,7 @@
   padding: 5px;
   background-color: antiquewhite;
   cursor: pointer;
+  width: 160px;
 }
 :host:hover{
   background-color: beige;
