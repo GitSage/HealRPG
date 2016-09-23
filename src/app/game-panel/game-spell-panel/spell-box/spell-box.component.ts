@@ -2,7 +2,6 @@ import {Component, OnInit, Input, HostListener, HostBinding, EventEmitter, Outpu
 import { Spell } from '../../../shared/spell/spell';
 
 @Component({
-  moduleId: module.id,
   selector: 'spell-box',
   templateUrl: 'spell-box.component.html',
   styleUrls: ['spell-box.component.css']

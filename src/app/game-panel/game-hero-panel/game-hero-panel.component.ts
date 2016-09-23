@@ -4,12 +4,10 @@ import { Hero } from '../../shared/hero';
 import { HealthBarComponent } from '../shared/health-bar/health-bar.component';
 
 @Component({
-  moduleId: module.id,
   selector: 'game-hero-panel',
   templateUrl: 'game-hero-panel.component.html',
   styleUrls: ['game-hero-panel.component.css'],
   providers: [ HeroService, HealthBarComponent ],
-  directives: [HealthBarComponent]
 })
 export class GameHeroPanelComponent implements OnInit {
 

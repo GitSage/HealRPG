@@ -1,3 +1,2 @@
-export * from './environment';
-export * from './healrpg.component';
-export * from './shared';
+export * from './app.component';
+export * from './app.module';
